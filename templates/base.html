@@ -2,8 +2,8 @@
 <h3>Subheader: Algo Algo</h3>
 <hr>
 <ul>
-    <li><a href="#">Home Page</a></li>
-    <li><a href="#">About Page</a></li>
+    <li><a href="{{ url_for('index') }}">Tasks</a></li>
+    <li><a href="{{ url_for('add') }}">Add Task</a></li>
 </ul>
 
 {% block main %}
